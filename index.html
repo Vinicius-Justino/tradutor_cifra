@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor</title>
+
+    <script src="./js/cifra.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body onload="inicializa_referencias()">
+    <header>
+        <h1>Tradutor</h1>
+    </header>
+    <main>
+        <div>
+            <textarea id="entrada" placeholder="Digite aqui...">
+
+            </textarea>
+            <div>
+                <button onclick="criptografa()">Criptografar</button>
+                <button onclick="descriptografa()">Decifrar</button>
+            </div>
+        </div>
+        <span class="divisoria"></span>
+        <div>
+            <textarea id="saida" readonly>
+
+            </textarea>
+        </div>
+    </main>
+</body>
+</html>
