@@ -88,7 +88,7 @@ button:hover {
     background-color: #2600ef;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (orientation: portrait) {
     main {
         flex-direction: column-reverse;
         width: 98%;
